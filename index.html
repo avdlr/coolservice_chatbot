@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cool Service Chatbot</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f6f6f6;
+      margin: 0;
+    }
+    header {
+      background-color: #0080ff;
+      padding: 20px 0;
+    }
+    .logo {
+      width: 200px;
+    }
+    main {
+      padding: 20px;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo" src="assets/coolservice_logo.svg" alt="Cool Service Logo" />
+  </header>
+  <main>
+    <h1>Chat with Cool Service Assistant</h1>
+    <p>We specialize in refrigeration and air conditioning installations.</p>
+    <iframe src="http://localhost:8501" loading="lazy"></iframe>
+  </main>
+</body>
+</html>
